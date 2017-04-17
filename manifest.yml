@@ -1,0 +1,10 @@
+applications:
+- path: VaadinStarterApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Lab8_Ps04055
+  host: Lab8Ps04055
+  disk_quota: 1024M
+  services:
+  - Lab8_Ps04055-elephantsql
